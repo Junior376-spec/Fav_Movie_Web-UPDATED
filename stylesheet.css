@@ -1,0 +1,67 @@
+body{
+    color: rgb(255, 255, 255);
+    background-color: rgb(76, 76, 76);
+    
+}
+
+img{
+    border-radius: 10px;
+    border-block-color: inherit;
+    width: 300px;
+    height: 250px;
+    
+}
+
+img{
+    background: rgb(225, 109, 56);
+    border-radius: 18px;
+    padding: 0.5px;
+    box-shadow: 0 4px 15px rgba(76, 210, 224, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+img:hover {
+    transform: translateY(-10px); /* Lifts up */
+    box-shadow: 0 12px 25px rgba(80, 191, 215, 0.2); /* Deeper shadow */
+}
+
+#button{
+    padding: 8px 20px;
+    background: #33f4ee; /* Enactus Yellow */
+    color: black;
+    border: #c327d1;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+
+    box-shadow: 0 15px 20px rgba(209, 25, 132, 0.4);
+    transition: all 0.25s ease;
+}
+
+#button:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 25px rgba(206, 25, 25, 0.7);
+    background: #c327d1; /* Slight brighter yellow */
+}
+
+#button:active {
+    transform: translateY(-2px);
+}
+
+
+p{
+    color: black;
+    border-style: groove;
+    border-radius: 10px;
+    background-color: rgb(150, 230, 254);
+    text-align: center;
+}
+
+.img{
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+
